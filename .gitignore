@@ -1,0 +1,6 @@
+# Compilation products
+*.o
+*.out
+
+# SCons products
+.sconsign.dblite
