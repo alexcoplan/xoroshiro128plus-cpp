@@ -1,3 +1,5 @@
+## Usage
+
 This is a lightweight implementation of the
 [xoroshiro128+](http://xoroshiro.di.unimi.it/) pseudo-random number generator in
 the form of a C++11
@@ -16,7 +18,9 @@ std::uniform_real_distribution<> dist(0.0, 1.0);
 dist(eng); // random double between 0 and 1
 ```
 
-See the example directory for a complete example.
+See
+[here](https://github.com/alexcoplan/xoroshiro128plus-cpp/blob/master/example/rand_reals.cpp)
+for a complete example.
 
 ## Compilation
 
