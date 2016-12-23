@@ -5,7 +5,7 @@ This is a lightweight implementation of the
 the form of a C++11
 [`UniformRandomBitGenerator`](http://en.cppreference.com/w/cpp/concept/UniformRandomBitGenerator).
 This means that it can be used as a random number engine compatible with the
-C++11 `<random>` library. For example:
+C++11 [`<random>`](http://en.cppreference.com/w/cpp/numeric/random) library. For example:
 
 ```
 xoroshiro128plus_engine eng;
