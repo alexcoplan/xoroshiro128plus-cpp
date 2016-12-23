@@ -1,7 +1,7 @@
 #include "xoroshiro.hpp"
 
-/** C++11 UniformRandomBitGenerator wrapper around xoroshift128+.
- * Original C * code from: http://xoroshiro.di.unimi.it/xoroshiro128plus.c */
+/* C++11 UniformRandomBitGenerator wrapper around xoroshift128+.
+ * Original C code from: http://xoroshiro.di.unimi.it/xoroshiro128plus.c */
 
 xoroshiro128plus_engine::result_type
 xoroshiro128plus_engine::operator()() {
